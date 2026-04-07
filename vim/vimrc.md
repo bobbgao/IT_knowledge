@@ -43,14 +43,15 @@ if has("gui_running")
     "colorscheme zellner "white backgroud
     "colorscheme elflord "black backgroud
     "colorscheme peachpuff
+    "colorscheme desert
 endif
 
 " GUI Font
 if has("gui_running")
-    "set guifont=Fantasque\ Sans\ Mono\ 14 "Linux
-    "set guifont=Fantasque_Sans_Mono:h14 "Windows/macOS
-    "set guifont=Monaco\ 12
-    "set guifont=Monaco:h12
+    "set guifont=Source\ Code\ Pro:h14 "Windows/macOS
+    "set guifont=Monaco:h14 "Windows/macOS
+    "set guifont=Source\ Code\ Pro\ Regular\ 14 "Linux
+    "set guifont=Monaco\ 14 "Linux
 endif
 
 " Number of Command History
@@ -79,7 +80,7 @@ set softtabstop=4
 
 " Disabled display Menu Bar, Tool Bar and Scroll Bars
 if has("gui_running")
-    set guioptions-=m
+    "set guioptions-=m
     "set guioptions-=T
     "set guioptions-=L
     "set guioptions-=r
