@@ -1,2 +1,11 @@
+# macOS filesystem
+.DS_Store
+.trash
 
+# Obsidian Vault
 .obsidian
+
+# VI/VIM temporary files
+.sw[a-p]
+tags
+*~
